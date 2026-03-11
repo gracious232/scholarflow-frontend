@@ -1,0 +1,32 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="24" x2="232" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F1FF"/>
+      <stop offset="1" stop-color="#CFE2FF"/>
+    </linearGradient>
+    <linearGradient id="stack1" x1="34" y1="164" x2="220" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CD37B"/>
+      <stop offset="1" stop-color="#0B4DB7"/>
+    </linearGradient>
+    <linearGradient id="stack2" x1="34" y1="146" x2="220" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DB8FF"/>
+      <stop offset="1" stop-color="#1267EA"/>
+    </linearGradient>
+    <linearGradient id="stack3" x1="34" y1="128" x2="220" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DA4FF"/>
+      <stop offset="1" stop-color="#0B46B0"/>
+    </linearGradient>
+    <linearGradient id="check" x1="95" y1="95" x2="171" y2="171" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76D957"/>
+      <stop offset="1" stop-color="#0F7FEF"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M34 164L206 188C214 189 222 184 224 176L234 140L52 116L34 164Z" fill="url(#stack1)"/>
+  <path d="M36 146L210 170C218 171 225 166 227 158L235 126L54 102L36 146Z" fill="url(#stack2)"/>
+  <path d="M38 128L214 152C222 153 229 148 231 140L238 112L56 88L38 128Z" fill="url(#stack3)"/>
+
+  <path d="M70 58C72 50 79 44 87 44H205C214 44 220 52 218 61L206 126C204 134 197 140 189 140H36C52 132 66 117 76 100C84 86 89 71 92 58H70Z" fill="url(#bg)"/>
+
+  <path d="M95 102C92 98 93 92 98 89C102 86 108 87 111 91L127 114L169 79C174 75 180 76 183 80C187 85 186 91 181 95L132 136C128 139 122 139 119 134L95 102Z" fill="url(#check)"/>
+</svg>
